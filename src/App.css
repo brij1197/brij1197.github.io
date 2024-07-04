@@ -34,7 +34,6 @@ a {
 }
 
 #content {
-  /* padding: 80px 200px; */
   width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -44,7 +43,7 @@ a {
 }
 
 ::selection {
-  background: var(--lightest-navy); /* WebKit/Blink Browsers */
+  background: var(--lightest-navy);
 }
 
 @media (prefers-reduced-motion: no-preference) {

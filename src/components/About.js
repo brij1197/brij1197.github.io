@@ -22,7 +22,7 @@ class About extends React.Component {
         I am a recent graduate from <a href="https://www.sfu.ca/about">Simon Fraser University</a>{" "}
         with a Masters in Professional Computer Science. With over 3 years of experience, 
         I have worked at renowned companies such as <a href="https://www.hp.com/us-en/hp-information.html">HP</a> and <a href="https://www.ibm.com/ca-en/about">IBM</a>.
-        I am also a <a href="https://www.credly.com/badges/00b58604-e7d9-4100-8fd9-c7993371880d/linked_in_profile">AWS Certified Solutions Architect </a>
+        I am also an <a href="https://www.credly.com/badges/00b58604-e7d9-4100-8fd9-c7993371880d/linked_in_profile">AWS Certified Solutions Architect </a>
       </p>
     );
     const two = (
@@ -33,10 +33,10 @@ class About extends React.Component {
 
     const tech_stack = [
       "Python",
-      "Javascript",
-      "Typescript",
-      "Java",
-      "C++",
+      "React.js",
+      "AWS",
+      "Node.js",
+      "Django",
     ];
 
     return (
@@ -61,7 +61,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img alt="Brij Bhatia" src={"/assets/me2.jpg"} />
+              <img alt="Brij Bhatia" src={"/assets/me.jpg"} />
             </div>
           </div>
         </FadeInSection>

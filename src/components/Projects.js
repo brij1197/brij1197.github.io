@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Projects.css";
 import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
 import FadeInSection from "./FadeInSection";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import ExternalLinks from "./ExternalLinks";
 
@@ -22,92 +22,83 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
+      "Project and Client Management System": {
+        title: "project and client management system",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
+          "A management system for projects and clients created using GraphQL.",
+        techStack: "Node.js, GraphQL, React.JS, MongoDB",
+        link: "https://github.com/brij1197/Project-and-Client-Management-POC",
+        image: "/assets/management.png"
       },
-      Truth: {
-        title: "truth",
+      "Path Find Algorithm": {
+        title: "path finding algorithm",
         desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
+          "An interactive python application to demonstrate how path finding algorithms work.",
+        techStack: "Python (Pygame)",
+        link: "https://github.com/brij1197/Path-Finding-Algorithm",
+        image: "/assets/pygame.png"
       },
-      "Tall Tales": {
-        title: "tall tales",
+      "Rent Tracking Web Application": {
+        title: "rent tracking web application",
         desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
+          "A full-stack web application to manage tenant information, rental payments, and maintenance requests.",
+        techStack: "Typescript, Angular, Firebase, Postman, MySQL",
+        link: "https://github.com/brij1197/RentTrackingWebApplication",
+        image: "/assets/rent-tracking.png"
       },
-      Portfolio: {
-        title: "portfolio.js",
+      "Augmented Reality for Education": {
+        title: "augmented reality for education",
         desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
+          "An application aimed for kindergarten students to aid in their education using Augmented Reality.",
+        techStack: "C# (Unity), VoiceRSS TTS, Vuforia",
+        link: "https://github.com/brij1197/Augmented-Reality-for-Education",
+        image: "/assets/eduar.png"
       }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "Encrypted Filesystem": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "A middleware solution designed to enhance file security within a host file system. It prioritizes confidentiality and security, ensuring that users cannot extract any information about the stored data or associated users.",
+        techStack: "C++",
+        link: "https://github.com/brij1197/cmpt785-g5-secure-filesystem",
       },
-      "Adam A.I.": {
+      "Virtual Private Cloud": {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+          "An application that creates a VPC (Virtual Private Cloud) and all the associated resources in AWS.",
+        techStack: "Terraform",
+        link: "https://github.com/brij1197/VirtualPrivateCloud-Terraform",
       },
-      "Distributed Logging and Monitoring System": {
+      "Torplay": {
         desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
+          "A web based player to stream or download a torrent file.",
+        techStack: "Node.js (Express.js), Python",
         link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+          "https://github.com/brij1197/Project_TorPlay"
       },
-      "Odin Bot": {
+      "ENIGMA": {
         desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
-        open: ""
-      },
-      "Game Centre": {
-        desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
-        open: ""
-      },
-      "Minimax Stonehenge": {
-        desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
+          "An Implementation of how the working of the Enigma Machine.",
         techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
-        open: ""
+        link: "https://github.com/brij1197/ENIGMA",
+      },
+      "Sudoku Solver": {
+        desc:
+          "A project that shows the implementation of Backtracking Algorithm on a Sudoku Puzzle",
+        techStack: "Python",
+        link: "https://github.com/brij1197/Backtracking-Algorithm",
+      },
+      "Image Compression": {
+        desc:
+          "Compress images using either the K-Means Method or using Tinify",
+        techStack: "Python",
+        link: "https://github.com/brij1197/Image-Compression",
       }
     };
 
     return (
       <div id="projects">
         <div className="section-header ">
-          <span className="section-title">/ pet projects</span>
+          <span className="section-title">/ projects</span>
         </div>
         <Carousel>
           {Object.keys(spotlightProjects).map((key, i) => (
@@ -128,7 +119,6 @@ class Projects extends React.Component {
                   </p>
                   <ExternalLinks
                     githubLink={spotlightProjects[key]["link"]}
-                    openLink={spotlightProjects[key]["open"]}
                   ></ExternalLinks>
                 </Carousel.Caption>
               </div>
@@ -148,7 +138,6 @@ class Projects extends React.Component {
                     </div>
                     <ExternalLinks
                       githubLink={projects[key]["link"]}
-                      openLink={projects[key]["open"]}
                     ></ExternalLinks>
                   </div>
 
