@@ -88,7 +88,7 @@ const JobList = () => {
       desc: [
         "Conducted comprehensive regression testing for HP Voice Products' OS builds, effectively identifying, documenting, and resolving software irregularities, which improved product quality.",
         "Implemented test scripts using Selenium, Jenkins, and Robot Framework, reducing testing duration by 45%.",
-        "Resolved over 100 software issues, boosting reliability by 25%, and performance by 20%.",
+        "Resolved over 100 software issues, boosting reliability, performance, and maintainability by 20%.",
         "Collaborated with the development team to integrate test automation into the CI/CD pipeline, ensuring seamless and timely code deployments."
       ]
     },
@@ -106,7 +106,7 @@ const JobList = () => {
       duration: "MAY 2021 - SEPT 2021",
       desc: [
         "Streamlined end-to-end service support processes using RPA, achieving a 40% workload reduction.",
-        "Automated internal website functions with Java and Selenium, reducing manual testing efforts by 50%."
+        "Automated internal website functions with Java and Selenium, reducing manual testing efforts significantly"
       ]
     },
     Subex: {
