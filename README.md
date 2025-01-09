@@ -24,7 +24,3 @@ To generate a production build
 ```bash
 npm run build
 ```
-
-## Credits
-
-Template by Gazi Jarin.
