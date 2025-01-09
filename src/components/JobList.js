@@ -106,7 +106,7 @@ const JobList = () => {
       duration: "MAY 2021 - SEPT 2021",
       desc: [
         "Streamlined end-to-end service support processes using RPA, achieving a 40% workload reduction.",
-        "Automated internal website functions with Java and Selenium, reducing manual testing efforts significantly"
+        "Automated internal website functions with Java and Selenium, reducing manual testing efforts significantly."
       ]
     },
     Subex: {
