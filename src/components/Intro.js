@@ -37,7 +37,7 @@ class Intro extends React.Component {
           I'm a full-stack software developer from Vancouver, Canada. I'm intrigued by new technologies and constantly seek opportunities to learn and integrate them into my projects. I am also interested in cybersecurity and networking.
           </div>
           <a
-            href="mailto:brijbhatia@gmail.com"
+            href="mailto:brijbhatia997@gmail.com"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>
