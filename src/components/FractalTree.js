@@ -13,7 +13,7 @@ const Sketch = p5 => {
   p5.draw = () => {
     p5.clear();
     p5.translate(200, p5.height);
-    angle = p5.map(p5.sin(p5.frameCount * 0.01), -1, 1, p5.PI / 2, p5.PI / 16); // vary the angle using sin()
+    angle = p5.map(p5.sin(p5.frameCount * 0.01), -1, 1, p5.PI / 2, p5.PI / 16);
     branch(100);
   };
 
