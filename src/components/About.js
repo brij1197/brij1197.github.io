@@ -52,7 +52,7 @@ class About extends React.Component {
               <ul className="tech-stack">
                 {tech_stack.map(function (tech_item, i) {
                   return (
-                    <FadeInSection delay={`${i + 1}00ms`}>
+                    <FadeInSection key={tech_item} delay={`${i + 1}00ms`}>
                       <li>{tech_item}</li>
                     </FadeInSection>
                   );
