@@ -17,7 +17,6 @@
 }
 
 .projects-card {
-  position: relative;
   cursor: default;
   display: flex;
   flex-direction: column;

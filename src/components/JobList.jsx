@@ -39,12 +39,12 @@ TabPanel.propTypes = {
 function getA11yProps(index, isHorizontal) {
   return isHorizontal
     ? {
-        id: `full-width-tab-${index}`,
-        "aria-controls": `full-width-tabpanel-${index}`
-      }
+      id: `full-width-tab-${index}`,
+      "aria-controls": `full-width-tabpanel-${index}`
+    }
     : {
-        id: `vertical-tab-${index}`
-      };
+      id: `vertical-tab-${index}`
+    };
 }
 
 const useStyles = makeStyles(theme => ({
@@ -77,8 +77,6 @@ const JobList = () => {
     setValue(newValue);
   };
 
-  const companies = Object.keys(experienceItems);
-
   return (
     <div className={classes.root}>
       <Tabs
@@ -88,24 +86,24 @@ const JobList = () => {
         onChange={handleChange}
         className={classes.tabs}
       >
-        {companies.map((company, i) => (
+        {experienceItems.map((item, i) => (
           <Tab
-            key={company}
-            label={isHorizontal ? `0${i}.` : company}
+            key={i}
+            label={isHorizontal ? `0${i}.` : item.company}
             {...getA11yProps(i, isHorizontal)}
           />
         ))}
       </Tabs>
-      {companies.map((company, i) => (
-        <TabPanel key={company} value={value} index={i} isHorizontal={isHorizontal}>
+      {experienceItems.map((item, i) => (
+        <TabPanel key={i} value={value} index={i} isHorizontal={isHorizontal}>
           <span className="joblist-job-title">
-            {experienceItems[company].jobTitle}
+            {item.jobTitle}
           </span>
           {" "}
-          <span className="joblist-job-company">{company}</span>
-          <div className="joblist-duration">{experienceItems[company].duration}</div>
+          <span className="joblist-job-company">{item.company}</span>
+          <div className="joblist-duration">{item.duration}</div>
           <ul className="job-description">
-            {experienceItems[company].desc.map((descItem, idx) => (
+            {item.desc.map((descItem, idx) => (
               <FadeInSection key={idx} delay={`${idx + 1}00ms`}>
                 <li>{descItem}</li>
               </FadeInSection>
