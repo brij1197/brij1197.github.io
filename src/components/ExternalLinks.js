@@ -5,7 +5,7 @@ import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
 const ExternalLinks = ({ githubLink, openLink }) => {
   return (
     <span className="external-links">
-      <a className="github-icon" href={this.props.githubLink} target="_blank" rel="noopener noreferrer">
+      <a className="github-icon" href={githubLink} target="_blank" rel="noopener noreferrer">
         <GitHubIcon
           style={{
             fontSize: 20,
@@ -13,8 +13,8 @@ const ExternalLinks = ({ githubLink, openLink }) => {
           }}
         ></GitHubIcon>
       </a>
-      {this.props.openLink && (
-        <a className="open-icon" href={this.props.openLink} target="_blank" rel="noopener noreferrer">
+      {openLink && (
+        <a className="open-icon" href={openLink} target="_blank" rel="noopener noreferrer">
           <OpenInBrowserIcon
             style={{
               fontSize: 25,
