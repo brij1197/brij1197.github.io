@@ -1,5 +1,6 @@
-export const experienceItems = {
-  NetApp: {
+export const experienceItems = [
+  {
+    company: "NetApp",
     jobTitle: "Software Engineer II @",
     duration: "OCT 2025 - PRESENT",
     desc: [
@@ -7,7 +8,8 @@ export const experienceItems = {
       "Building and optimizing cloud storage solutions."
     ]
   },
-  Freelance: {
+  {
+    company: "Freelance",
     jobTitle: "Software Developer @",
     duration: "JAN 2025 - SEP 2025",
     desc: [
@@ -16,7 +18,8 @@ export const experienceItems = {
       "Optimized API response times by streamlining database queries and schema design, improving system efficiency and user experience."
     ]
   },
-  HP: {
+  {
+    company: "HP",
     jobTitle: "Product Test Automation Engineer Co-op @",
     duration: "MAY 2023 - DEC 2023",
     desc: [
@@ -26,7 +29,8 @@ export const experienceItems = {
       "Collaborated with the development team to integrate test automation into the CI/CD pipeline, ensuring seamless and timely code deployments."
     ]
   },
-  IBM: {
+  {
+    company: "IBM",
     jobTitle: "Systems Engineer @",
     duration: "OCT 2019 - AUG 2022",
     desc: [
@@ -35,7 +39,8 @@ export const experienceItems = {
       "Optimized Oracle SQL queries and database schemas to improve data retrieval efficiency by 20%."
     ]
   },
-  "IBM ": {
+  {
+    company: "IBM",
     jobTitle: "Software Engineer Intern @",
     duration: "MAY 2021 - SEPT 2021",
     desc: [
@@ -43,7 +48,8 @@ export const experienceItems = {
       "Automated internal website functions with Java and Selenium, reducing manual testing efforts significantly."
     ]
   },
-  Subex: {
+  {
+    company: "Subex",
     jobTitle: "Firmware Engineer @",
     duration: "SEPT 2019 - APR 2020",
     desc: [
@@ -51,4 +57,4 @@ export const experienceItems = {
       "Designed the application using 'Blynk' using pre-defined widgets in the app such as a map for relaying the location along with value displays for latitude and longitude of the position."
     ]
   }
-};
+];

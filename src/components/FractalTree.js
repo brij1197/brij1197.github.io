@@ -2,15 +2,15 @@ import React from "react";
 import { ReactP5Wrapper } from "react-p5-wrapper";
 import "../styles/FractalTree.css";
 
-let angle;
-
 const Sketch = p5 => {
+  let angle;
   p5.setup = () => {
     p5.createCanvas(400, 400, "transparent");
     angle = p5.PI / 4;
   };
 
   p5.draw = () => {
+    p5.frameRate(30);
     p5.clear();
     p5.translate(200, p5.height);
     angle = p5.map(p5.sin(p5.frameCount * 0.01), -1, 1, p5.PI / 2, p5.PI / 16);

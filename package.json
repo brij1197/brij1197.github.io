@@ -14,14 +14,8 @@
     "react-bootstrap": "^1.6.4",
     "react-dom": "^16.13.1",
     "react-p5-wrapper": "^3.4.0",
-    "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
-    "react-transition-group": "^4.4.1",
-    "react-typist": "^2.0.5",
-    "rsuite": "^4.8.2",
-    "schema-utils": "^3.0.0",
-    "three": "^0.126.1"
+    "react-typist": "^2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",

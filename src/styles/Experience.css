@@ -58,7 +58,7 @@
   color: var(--gold) !important;
 }
 
-ul {
+#experience ul {
   list-style: none;
   margin-left: -40px;
 }

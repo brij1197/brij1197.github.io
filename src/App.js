@@ -7,7 +7,6 @@ import Credits from "./components/Credits";
 import NavBar from "./components/NavBar";
 import "./App.css";
 import "./styles/Global.css";
-import "rsuite/dist/styles/rsuite-default.css";
 
 function App() {
   return (

@@ -34,12 +34,9 @@ a {
 }
 
 #content {
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
-}
-.rs-steps-horizontal .rs-steps-item-content {
-  text-align: left;
 }
 
 ::selection {
